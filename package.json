@@ -4,5 +4,9 @@
 	"scripts": {
 		"build": "tsc",
 		"watch": "tsc --watch"
+	},
+	"dependencies": {
+		"@types/react": "^16.7.18",
+		"@types/react-dom": "^16.0.11"
 	}
 }

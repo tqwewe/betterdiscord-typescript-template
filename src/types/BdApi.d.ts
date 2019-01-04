@@ -1,6 +1,9 @@
+type ReactInstance = typeof React
+type ReactDOMInstance = typeof ReactDOM
+
 declare module BdApi {
-	export const React: any
-	export const ReactDOM: any
+	export const React: ReactInstance
+	export const ReactDOM: ReactDOMInstance
 
 	export function alert(title: string, content: string): void
 	export function clearCSS(id: string): void
